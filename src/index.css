@@ -1,0 +1,127 @@
+:root {
+  /* Enhanced Palette */
+  --bg-color: #F9F7F2;
+  /* Warmer, more paper-like Cream */
+  --text-primary: #1A1A1A;
+  /* Almost Black, sharper contrast */
+  --text-secondary: #555555;
+  --accent-color: #C07F5F;
+  /* Sophisticated Bronze/Terracotta */
+  --secondary-accent: #6B7B6E;
+  /* Muted Sage */
+
+  --font-heading: 'Playfair Display', serif;
+  --font-body: 'Lato', sans-serif;
+
+  --cursor-size: 20px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  cursor: auto;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  line-height: 1.8;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+/* Custom Cursor Styles Removed */
+
+/* Typography Overrides */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+  font-weight: 400;
+  /* Lighter weight for elegance */
+  color: var(--text-primary);
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: clamp(3rem, 8vw, 6rem);
+  /* Responsive giant text */
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  position: relative;
+  cursor: pointer;
+}
+
+/* Underline animation for links */
+.hover-underline {
+  position: relative;
+}
+
+.hover-underline::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 1px;
+  bottom: -2px;
+  left: 0;
+  background-color: var(--accent-color);
+  transition: width 0.4s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.hover-underline:hover::after {
+  width: 100%;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.container {
+  max-width: 1400px;
+  /* Wider for editorial look */
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 20px;
+  }
+}
+
+/* Scroll smooth */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Utility Classes */
+.section-padding {
+  padding: 120px 0;
+}
+
+/* Masonry Grid Responsive Support */
+.masonry-grid {
+  column-count: 3;
+  column-gap: 40px;
+}
+
+@media (max-width: 1024px) {
+  .masonry-grid {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 600px) {
+  .masonry-grid {
+    column-count: 1;
+  }
+}
