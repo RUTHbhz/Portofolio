@@ -25,7 +25,7 @@ const About = () => {
                             Né à <strong>Goma</strong> le <strong>15 décembre 2002</strong>, je construis mon art comme on construit une vie : avec résilience. Mon travail n'est pas une simple évasion, c'est une confrontation douce avec la réalité, une recherche constante de beauté dans le chaos.
                         </p>
                         <p>
-                            Chaque œuvre est un chapitre, chaque couleur une respiration. Je vous invite à explorer cet univers où la fragilité rencontre la force.
+                            Chaque œuvre est un chapitre, chaque couleur une respiration. Je vous invite à explorer cet univers merveilleux où la fragilité rencontre la force.
                         </p>
                     </div>
                 </motion.div>
