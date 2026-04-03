@@ -25,7 +25,7 @@ const Contact = () => {
                 <p style={{ marginTop: '20px', fontSize: '1.2rem', color: 'var(--text-secondary)' }}>
                     Pour toute demande de renseignement, collaboration ou acquisition d'œuvre.
                 </p>
-                <a href="mailto:contact@arnoldamani.com" style={buttonStyle}>Envoyer un Message</a>
+                <a href="mailto:contact@arnoldchibanguka.com" style={buttonStyle}>Envoyer un Message</a>
             </div>
         </section>
     );
