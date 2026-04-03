@@ -5,7 +5,7 @@ const Gallery = () => {
     const [selectedId, setSelectedId] = useState(null);
 
     const artworks = [
-        { id: 1, src: '/artworks/art1.jpeg', title: 'Harmonie Discrète', height: '400px' },
+        { id: 1, src: '/artworks/art1.jpeg', title: 'Chagrin incompris', height: '400px' },
         { id: 2, src: '/artworks/art2.jpeg', title: 'Lueurs de Goma', height: '500px' },
         { id: 3, src: '/artworks/art3.jpeg', title: 'Résilience', height: '350px' },
         { id: 4, src: '/artworks/art4.jpeg', title: 'Vie dans l'ombre', height: '450px' },
