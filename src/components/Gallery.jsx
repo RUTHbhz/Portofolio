@@ -8,7 +8,7 @@ const Gallery = () => {
         { id: 1, src: '/artworks/art1.jpeg', title: 'Harmonie Discrète', height: '400px' },
         { id: 2, src: '/artworks/art2.jpeg', title: 'Lueurs de Goma', height: '500px' },
         { id: 3, src: '/artworks/art3.jpeg', title: 'Résilience', height: '350px' },
-        { id: 4, src: '/artworks/art4.jpeg', title: 'Aube Nouvelle', height: '450px' },
+        { id: 4, src: '/artworks/art4.jpeg', title: 'Vie dans l'ombre', height: '450px' },
         { id: 5, src: '/artworks/art5.jpeg', title: 'Douce Mélancolie', height: '600px' },
         { id: 6, src: '/artworks/art6.jpeg', title: 'Vibrations', height: '400px' },
         { id: 7, src: '/artworks/art7.jpeg', title: 'Horizon', height: '300px' },
